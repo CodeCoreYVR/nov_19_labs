@@ -99,6 +99,11 @@ html * {
   filter: grayscale(1);
 }
 
+#applicant-preview {
+  border: solid 5px gainsboro;
+  background-color: grey;
+}
+
 #toxic-tim {
   background-image: url(../images/toxic_tim.jpg);
 }
@@ -131,7 +136,7 @@ html * {
   margin-bottom: 9px;
   width: 100%;
   display: flex;
-  flex-grow: row;
+  flex-flow: row;
 }
 
 .application > *:not(:last-child) {
@@ -151,4 +156,12 @@ html * {
 .application > form > div > label {
   width: 5rem;
   flex-shrink: 0;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+.doggo.dead {
+  opacity: 0.2;
 }
